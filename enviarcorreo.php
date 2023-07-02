@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Obtén otros datos del formulario
 
   // Configura el correo
-  $destinatario = 'tucorreo@example.com'; // Cambia esto con tu dirección de correo
+  $destinatario = 'johaner84@hotmail.com'; // Cambia esto con tu dirección de correo
   $asunto = 'Nuevo formulario de contacto';
   $mensaje = "Nombre: $nombre\n";
   $mensaje .= "Correo electrónico: $correo\n";
