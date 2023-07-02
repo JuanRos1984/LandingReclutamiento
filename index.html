@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page de Reclutamiento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Aquí puedes agregar el encabezado de tu página -->
+  </header>
+
+  <main>
+    <section id="banner">
+      <div class="container">
+        <h1>Bienvenido a nuestro equipo</h1>
+        <p>Únete a una empresa líder en reclutamiento de personal</p>
+        <a href="#formulario" class="cta-button">Aplica ahora</a>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <div class="container">
+        <h2>Nuestros servicios</h2>
+        <div class="servicio">
+          <img src="img/reclutamiento.jpg" alt="Servicio 1">
+          <h3>Reclutamiento para empresas</h3>
+          <p>Captación de talento, depuración, entrevista</p>
+        </div>
+        <div class="servicio">
+          <img src="img/reclutamiento2.jpg" alt="Servicio 2">
+          <h3>Elaboración de CV</h3>
+          <p>Elaboramos un CV de alto impacto, con las claves para llamar la atención de las empresas</p>
+        </div>
+        <div class="servicio">
+          <img src="img/reclutamiento3.jpg" alt="Servicio 3">
+          <h3>Preparación para entrevista laboral</h3>
+          <p>Te ayudamos a prepararte para tus entrevistas laborales</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario">
+      <div class="container">
+        <h2>Aplica ahora</h2>
+        <form action="enviar_correo.php" method="POST">
+            <!-- Campos del formulario -->
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="correo" placeholder="Correo electrónico" required>
+            <!-- Otros campos del formulario -->
+            <button type="submit">Enviar</button>
+          </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Aquí puedes agregar el contenido del pie de página -->
+  </footer>
+</body>
+</html>
